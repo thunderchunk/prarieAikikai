@@ -1,0 +1,176 @@
+// RESETS
+// ===================================================
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+  text-decoration: none;
+}
+
+// COLORS
+// ===================================================
+
+$blk: black;
+$wht: white;
+$red: #8B0000;
+
+
+
+// FONTS
+// ===================================================
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+$headlineFont: 'Open Sans', sans-serif;
+$paragraphFont: 'Open Sans', sans-serif;
+
+body{
+  font-size: 12px;
+}
+
+a{
+  font-family: $paragraphFont;
+  color: $red;
+  &:hover{
+    color: $blk;
+  }
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $headlineFont;
+  color: $blk;
+}
+
+h1{
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 1em;
+}
+
+h5{
+  font-size: .8em;
+  font-weight: bold;
+}
+
+h6{
+  font-size: .8em;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1.4em;
+  font-family: $paragraphFont;
+  color:$blk;
+  line-height: 2em;
+}
+
+ul{
+  font-family: $headlineFont;
+  line-height: 1.3;
+  padding-left: 10px;
+  font-size: .8em;
+}
+
+.centerTxt{
+  text-align: center;
+}
+
+.rightTxt{
+  text-align: right;
+}
+
+.leftTxt{
+  text-align: left;
+}
+
+.whtTxt{
+  color: $wht;
+}
+
+
+
+
+
+// FlexBox Styles
+// ===================================================
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCenter{
+  justify-content: center;
+}
+
+.flexBetween{
+  justify-content: flexBetween;
+}

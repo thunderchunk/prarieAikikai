@@ -1,0 +1,63 @@
+
+
+.scheduleHeadline{
+  margin: 20px auto;
+  @media(max-width: 775px){
+  display: none;
+  }
+}
+
+.scheduleHolder{
+  width: 80%;
+  margin: 20px auto;
+  @media(max-width: 775px){
+    margin-top: 50px;
+  }
+}
+
+.scheduleRow{
+  height: 40px;
+  
+}
+
+.dayCell{
+  border: 2px solid black;
+  height: 40px;
+  background-color: lightgrey;
+  width: 150px;
+  @media(max-width: 440px){
+    width: 100px;
+  }
+  @media(max-width: 320px){
+    width: 90px;
+  }
+}
+
+.timeCell{
+  flex-grow: 1;
+  border: 2px solid black;
+  height: 40px;
+  background-color: lightgrey;
+}
+
+.dayTxt{
+  margin: 10px 10px 0 0;
+  font-weight: 400;
+  @media(max-width: 440px){
+      font-size: 1.25em;
+  }
+}
+
+.timeTxt{
+  margin: 10px 0 0 10px;
+  @media(max-width: 440px){
+      font-size: 1.25em;
+  }
+  @media(max-width: 320px){
+      font-size: 1em;
+  }
+}
+
+.noClass{
+  background-color: grey;
+}

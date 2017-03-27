@@ -1,0 +1,33 @@
+<div class="bigNav flexColumn">
+  <div class="topBrushHolder flexRow">
+    <div class="brushStart"></div>
+    <div class="brushBar flexRow">
+      <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ui-sref="home">PRAIRIE AIKIKAI</h3>
+      <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ui-sref="what">WHAT IS AIKIDO?</h3>
+      <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ui-sref="schedule">CLASS SCHEDULE</h3>
+      <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ui-sref="about">ABOUT US</h3>
+      <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ui-sref="contact">CONTACT US</h3>
+    </div>
+  </div>
+  <div class="bottomBrushHolder flexRow">
+    <div class="bottomBrushSpacer"></div>
+    <div class="bottomBrush"></div>
+  </div>
+</div>
+
+<div class="littleNav">
+  <div class="littleBrushHolder flexRow">
+    <div class="littleBrushBar">
+      <div class="shapesIcon" ng-click="littleMenu =!littleMenu"></div>
+    </div>
+    <div class="littleBrushEnd"> </div>
+  </div>
+</div>
+
+<div class="littleMenu flexColumn" ng-show="littleMenu">
+  <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ng-click="littleMenu =!littleMenu" ui-sref="home" >PRAIRIE AIKIKAI</h3>
+  <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ng-click="littleMenu =!littleMenu" ui-sref="what">WHAT IS AIKIDO?</h3>
+  <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ng-click="littleMenu =!littleMenu" ui-sref="schedule">CLASS SCHEDULE</h3>
+  <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ng-click="littleMenu =!littleMenu" ui-sref="about">ABOUT US</h3>
+  <h3 class="whtTxt bigNavTxt" ui-sref-active="active" ng-click="littleMenu =!littleMenu" ui-sref="contact">CONTACT US</h3>
+</div>

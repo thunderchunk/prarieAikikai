@@ -1,0 +1,38 @@
+#map {
+ height: 400px;
+ width: 100%;
+ background: lightgrey;
+ @media(max-width: 320px){
+   height: 300px;
+ }
+}
+.addressTitle{
+  margin: 30px 0 0 0;  
+  @media(max-width: 450px){
+    font-size: 1.35em;
+  }
+  
+}
+
+.addressContent{
+  padding-left: 75px;
+  width: 100%;
+  @media(max-width: 450px){
+    padding-left: 40px;
+  }
+}
+
+.addressLabel{
+  margin: 20px 0 20px 0 ;
+  @media(max-width: 450px){
+    font-size: 1.1em;
+  }
+}
+
+.addressP{
+  line-height: 1em;
+  margin-left: 10px;
+  @media(max-width: 450px){
+    font-size: 1em;
+  }
+}

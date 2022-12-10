@@ -18,7 +18,7 @@
   "homepage": "https://github.com/thunderchunk/prarieAikikai#readme",
   "dependencies": {
     "cors": "^2.8.0",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
